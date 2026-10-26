@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ярлыки приложения: видны при долгом нажатии на иконку и, как правило,
+     в «Режимах и сценариях» → «Открыть приложение или выполнить действие». -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="toggle"
+        android:enabled="true"
+        android:icon="@drawable/ic_shield"
+        android:shortcutShortLabel="@string/shortcut_toggle">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sotavpntoggle"
+            android:targetClass="com.example.sotavpntoggle.TriggerActivity">
+            <extra android:name="mode" android:value="toggle" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="on"
+        android:enabled="true"
+        android:icon="@drawable/ic_shield"
+        android:shortcutShortLabel="@string/shortcut_on">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sotavpntoggle"
+            android:targetClass="com.example.sotavpntoggle.TriggerActivity">
+            <extra android:name="mode" android:value="on" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="off"
+        android:enabled="true"
+        android:icon="@drawable/ic_shield"
+        android:shortcutShortLabel="@string/shortcut_off">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sotavpntoggle"
+            android:targetClass="com.example.sotavpntoggle.TriggerActivity">
+            <extra android:name="mode" android:value="off" />
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_shield"
+        android:shortcutShortLabel="@string/shortcut_settings">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.sotavpntoggle"
+            android:targetClass="com.example.sotavpntoggle.SettingsActivity" />
+    </shortcut>
+
+</shortcuts>

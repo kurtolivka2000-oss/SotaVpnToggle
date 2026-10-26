@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sota Toggle</string>
+    <string name="settings_label">Sota Toggle — настройки</string>
+    <string name="accessibility_label">Sota Toggle</string>
+    <string name="accessibility_description">Нужна, чтобы по команде (NFC-кнопка, сценарий) опустить шторку быстрых настроек, нажать плитку Sota Connect и закрыть шторку. Служба ничего не читает и не отправляет, кроме поиска этой плитки в момент нажатия.</string>
+    <string name="shortcut_toggle">Переключить VPN</string>
+    <string name="shortcut_on">Включить VPN</string>
+    <string name="shortcut_off">Выключить VPN</string>
+    <string name="shortcut_settings">Настройки</string>
+</resources>
